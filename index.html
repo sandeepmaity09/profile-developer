@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" >
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" >
 
@@ -71,6 +74,46 @@
             <img src="images/men.png" alt=" " class="img-responsive" />
         </div>
     </div>
+
+    <!-- mid about -->
+    <div class="about" id="about">
+        <div class="col-md-6 about-left">
+            <h5>Follow <br> me on <br><span>twitter</span><i class="fa fa-twitter" aria-hidden="true"></i></h5>
+        </div>
+        <div class="col-md-6 person-info-agileits">
+            <h3 class="head_1 head_2">About Me <span>I am Sandeep Maity</span></h3>
+            <p><span>Hi!, I am Sandeep Maity </span>lolem iqusm text</p>
+            <ul>
+                <li><span>Name</span>: Sandeep Maity</li>
+                <li><span>Age</span>: 22 Years </li>
+                <li><span>Experience</span>: +2 Years </li>
+                <li><span>Email</span>: <a href="mailto:sandeepmaity09@gmail.com">sandeepmaity09@gmail.com</a></li>
+                <li><span>Phone</span>: (+91) 9829546694 </li>
+                <li><span>Blogs</span>: <a href="www.maityslab.com">www.maityslab.com</a></li>
+                <li><span>Address</span>: 9-A Govind Nagar West,Jaipur,Rajasthan,India</li>
+                <li><a href="#" class="btn-ls">Download CV </a>
+                    <a href="#small-dialog" class="play-icon poopup-with-zoom-anim btn-ls">Watch my Video </a>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <!-- JavaScript -->
+
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.m-nav-btn').on('click',function(){
+                $('.m-nav-btn .m-nav-btn_line:nth-of-type(1)').toggleClass('m-nav-btn_line--1');
+                $('.m-nav-btn .m-nav-btn_line:nth-of-type(2)').toggleClass('m-nav-btn_line--2');
+                $('.m-nav-btn .m-nav-btn_line:nth-of-type(3)').toggleClass('m-nav-btn_line--3');
+                $('.mob-menu').toggleClass('.mob-menu--open');
+                return false;                
+            })
+        })
+    </script>
 </body>
 
 </html>
