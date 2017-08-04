@@ -50,6 +50,8 @@ label {
     margin: 0;
 }
 
+/* -- banner -- */
+
 .header h1 {
     margin: 0;
 }
@@ -144,6 +146,14 @@ p.banner-p-ls {
     position: absolute;
     left: 2em;
     top: 18em;
+}
+
+.agileinfo_share {
+    position: relative;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 
@@ -313,6 +323,9 @@ li.dropdown.act  {
     z-index: 9!important;
 }
 
+
+
+
 #typed {
     font-size: 2em;
     color: #ecb732;
@@ -342,6 +355,8 @@ li.dropdown.act  {
     font-size: 2.5em;
 }
 
+
+/* -- search bar -- */
 .search-agileits {
     margin: 3em 2em 7em;
     position: relative;
@@ -481,6 +496,7 @@ li.dropdown.act  {
     font-size: 0.5em !important;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.69);
 }
+
 .s {
     padding: 5em;
 }
@@ -588,3 +604,131 @@ section.mid-layout a {
 section.mid-layout a:hover {
     background: #ecb731;
 }
+
+/* -- Skills -- */
+
+.skills-agileinfo {
+    background: url(../images/skills.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bar-grids {
+    padding: 0em;
+    width: 48.24%;
+}
+
+.bargrids-left {
+    margin-right: 40px;
+}
+
+.bar-grids h4 {
+    font-size: 1.6em;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-bottom: 1.4em;
+    padding-bottom: 0em;
+    font-weight: 600;
+}
+
+.bar-grids h4 span.glyphicon {
+    margin-right: 0.8em;
+}
+
+.progress {
+    height: 20px;
+    margin-bottom: 2.2em;
+    background-color: rgba(255,218,227,0.07);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+
+.prgs-last {
+    margin-bottom: 0!important;
+}
+
+.progress-bar {
+    background-color: #0086fe;
+}
+
+.bar-grids h6 {
+    font-size: 0.9em;
+    color: #fff;
+    margin-bottom: 0.6em;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.bar-grids h6 span {
+    float: right;
+    font-size: 0.9em;
+}
+
+/* -- work Experience -- */
+
+.work h5, .contact-grids h5 {
+    color: #0086fe;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    position: relative;
+    display: inline-block;
+}
+
+.work h5:before, .contact-grids h5:before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: #000;
+    top: 33px;
+    left: -15px;
+}
+
+.work-info-agileits {
+    margin-top: 2em;
+}
+
+.work2 {
+    margin-top: 2em!important;
+}
+
+.work-left-agileits h6 {
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #303030;
+}
+
+.work-left-agileits h6 i {
+    color: #ecb731;
+    padding-right: 8px;
+}
+
+.work-right-agileits h3 {
+    color: #ecb731;
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+
+.work-right-agileits h3 span {
+    color: rgb(3,168,245);
+    font-weight: 400;
+    font-size: 25px!important;
+}
+
+.work-right-agileits p {
+    color: #777;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+
