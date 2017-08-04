@@ -393,3 +393,198 @@ li.dropdown.act  {
 .agile_ban_info h2 span {
     color: #171717;
 }
+
+
+/* -- modal --*/
+
+.modal-content img {
+    width: 100%;
+}
+
+.modal-content h4 {
+    color: #000;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+}
+
+.modal-content h5 {
+    color: #ecb731;
+    padding-top: 15px;
+    font-size: 21px;
+}
+
+.modal-content p {
+    color: #636363;
+    font-size: 14px;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.modal-header {
+    padding: 30px;
+}
+
+/* -- about -- */
+.my_gallery,.work, .services, .skills-agileinfo, .mid-layout {
+    padding: 5em 0em;
+}
+
+.white-agile{
+    color: #fff !important;
+}
+
+.about-left {
+    background: url(../images/about.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    padding: 0;
+    min-height: 794px;
+    position: relative;
+    text-align: center;
+    z-index: 999;
+    margin: 0;
+}
+
+.jarallax {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.about-left h5 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 4px;
+    position: relative;
+    margin: 6em 2em 0 0;
+    line-height: 35px;
+    float: right;
+}
+
+.about-left h5 span {
+    color: #00acee;
+    font-size: 1em !important;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.about-left h5 i {
+    display: block;
+    position: absolute;
+    top: 3.5em;
+    right: -0.5em;
+    color: #0085fe;
+    font-size: 0.5em !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.69);
+}
+.s {
+    padding: 5em;
+}
+
+.person-info-agileits ul {
+    margin-top: 3.75em;
+}
+
+.person-info-agileits ul li {
+    list-style: none;
+    display: block;
+    margin-bottom: 25px;
+    color: #8a8a8a;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.person-info-agileits ul li:nth-child(8) {
+    margin-bottom: 0!important;
+}
+
+.person-info-agileits ul li span {
+    width: 141px;
+    display: inline-block;
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+.person-info-agileits ul li a {
+    color: #8a8a8a;
+}
+
+.person-info-agileits ul li a:hover {
+    color: #ecb731;
+}
+
+.person-info-agileits ul li a.btn-ls {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: #0086fe;
+    margin: 10px 10px 0 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+}
+
+.person-info-agileits ul li a.btn-ls:hover {
+    background: #ecb731;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+}
+
+.person-info-agileits p span {
+    color: #ecb731;
+    font-size: 19px;
+}
+
+.person-info-agileits p {
+    color: #303030;
+    font-size: 16px;
+    line-height: 30px;
+    width: 100%;
+}
+
+
+
+
+/* -- mid --*/
+.mid-layout {
+    text-align: center;
+}
+
+section.mid-layout h6 {
+    color: #333;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+section.mid-layout h3 {
+    color: #0086fe;
+    font-size: 2.5em;
+    margin: 0.5em 0 1em;
+    letter-spacing: 2px;
+    font-weight:  600;
+}
+
+section.mid-layout h3 span {
+    color: #ecb731;
+}
+
+section.mid-layout a {
+    color: #fff;
+    padding: 10px 30px;
+    background: #000;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+}
+
+section.mid-layout a:hover {
+    background: #ecb731;
+}
