@@ -732,3 +732,207 @@ section.mid-layout a:hover {
 }
 
 
+/*-- Services --*/
+
+.services {
+    background: #171717;
+}
+
+.services h3 {
+    color: #fff!important;
+}
+
+.sub_head {
+    text-align: center;
+    color: #FF008F;
+    font-size: 1em;
+}
+
+.head_1 {
+    text-align: center;
+    color: #303030;
+    margin: 0 0 1em;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+h3.head_1.head_2 span {
+    font-size: 13px;
+    display: block;
+    letter-spacing: 4px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #ecb731;
+}
+
+.nunc {
+    position: relative;
+    text-align: center;
+    color: #999;
+    line-height: 1.8em;
+    padding-bottom: 1.5em;
+}
+
+.nunc:after {
+    content: '';
+    background: #FF008F;
+    height: 2px;
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+    width: 10%;
+}
+
+.agileits_services_grids {
+    margin: 0em 0 3em;
+}
+
+.agileits_services_grid {
+    padding: 2em;
+    border: 1px solid #999;
+    border-left: 3px solid #999;
+    text-align: left;
+    border-right: none;
+    background: #fff;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+}
+
+.agileits_services_grid h5 {
+    font-size: 1.5em;
+    color: #000;
+    margin: 0em 0 .5em;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+}   
+
+.agileits_services_grid p {
+    color: #7e7e7e;
+    line-height: 2em;
+    font-size: 16px;
+}
+
+.agileits_services_grid:hover {
+    background: #ecfbff;
+    border-left: 3px solid #0086fe;
+    border-right: none;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+}
+
+.agileits_services_grid:hover h5 {
+    color: #0086fe;
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+}
+
+.agileits_service_grid_btm_left1 {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.agileits_service_grid_btm_left1:before {
+    bottom: 0;
+    right: 0;
+    border-bottom: 2px solid #0086fe;
+    border-right: 2px solid #0086fe;
+}
+
+.agileits_service_grid_btm_left1:after, .agileits_service_grid_btm_left1:before {
+    content: '';
+    z-index: 2;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    position: absolute;
+    -webkit-transition: all 800ms ease-in-out;
+    -moz-transition: all 800ms ease-in-out;
+    -ms-transition: all 800ms ease-in-out;
+    -o-transition: all 800ms ease-in-out;
+    transition: all 800ms ease-in-out;
+}
+
+.agileits_service_grid_btm_left1:after {
+    top: 0;
+    left: 0;
+    border-top: 2px solid #0086fe;
+    border-left: 2px solid #0086fe;
+}
+
+.agileits_service_grid_btm_left1:hover:after, .agileits_service_grid_btm_left1:hover:before {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+}
+
+.agileits_service_grid_btm_left2 h5 {
+    margin: 0em 0 .5em;
+    color: #ecb731;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -o-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.agileits_service_grid_btm_left2 p {
+    color: #999;
+    font-size: 15px;
+    line-height: 2em;
+}
+
+.agileits_service_grid_btm_left2 {
+    padding: 2em 1em;
+    border: none;
+    border-bottom: 2px solid #000000;
+    background: #fff;
+    text-align: center;
+}
+
+.agileits_service_grid_btm_left1:hover {
+    cursor: default;
+}
+
+.agileits_service_grid_btm_left1:hover .agileits_service_grid_btm_left2 i {
+    color: #0086fe;
+    border-color: #252525;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+}
+
+.agileits_service_grid_btm_left2 i {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #0086fe;
+    line-height: 57px;
+    border-radius: 3px;
+    font-size: 25px;
+    margin-bottom: 0.5em;
+    color: #252525;
+}
