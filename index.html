@@ -328,6 +328,71 @@
         </div>
     </div>
 
+    <!-- Footer -->
+
+    <div class="contact" id="contact">
+        <h3 class="head_1 head_2">Contact Me <span> Get in touch with me </span></h3>
+        <div class="col-md-5 contact-agileits-layouts">
+            <form action="#" method="post">
+                <input type="text" name="Your Name" placeholder="Name" required="">
+                <input type="email" name="Your Email" placeholder="Email" required="">
+                <input type="text" name="Phone Number" placeholder="Number" required="">
+                <textarea name="Message" placeholder="Message" required=""></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="col-md-7 contact-map-right">
+            <div id="map"></div>
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+            <script type="text/javascript">
+                google.maps.event.addDomListener(window,'load',init);
+                function init() {
+                    var mapOptions = {
+                        zoom: 11,
+                        center: new google.maps.LatLng(),
+                        styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]   
+                    };
+                    var mapElement = document.getElementById('map');
+                    var map = new google.maps.Map(mapElement,mapOptions);
+                    var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(),
+                        map: map,
+                    });
+                }
+            </script>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+
+    <div class="contact-info">
+        <div class="container">
+            <div class="col-md-6 contact-grids">
+                <h5>Find me </h5>
+                <div class="agileits_social_media-footer">
+                    <ul>
+                        <li><a href="#" class="facebook_class"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="twitter_class"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="github_class"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="blog_class"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 contact-grids contact-mid">
+                <h5>Contact Info </h5>
+                <ul>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>(+91) 9829546694 </li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>9-A, Govind Nagar, Jaipur, Rajasthan, India</li>
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:sandeepmaity09@gmail.com">sandeepmaity09@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div> 
+    <div class="copy-agile">
+        <p>Copyright 2017 Sandeep Maity. All Rights Reserved | Design by <a href="http://www.maityslab.com/">Maity's Lab</a></p>'
+    </div>
     <!-- JavaScript -->
 
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
