@@ -444,13 +444,69 @@
     <!-- pop-up-box -->
     <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
     <script>
-        $(doucment).ready(function(){
+        $(document).ready(function(){
             $('.popup-with-zoom-anim').magnificPopup({
                 type: 'inline',
                 fixedContentPos: false,
                 fixedBgPos: true,
-            })
+                overFlowY: 'auto',
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+        });
+    </script>
+
+    <!-- banner-type-text -->
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script>
+        $(function(){
+            $("#typed").typed({
+                stringsElement: $('#typed-strings'),
+                typeSpeed: 30,
+                backDelay: 500,
+                loop: false,
+                contentType: 'html',
+                loopCount: false,
+                callback: function(){foo();},
+                resetCallback: function(){newTyped();}
+            });
+            $('.reset').click(function(){
+                $('#typed').typed('reset');
+            });
+        });
+
+        function newTyped() {}
+        function foo(){ console.log("Callbacks");}
+    </script>
+
+    <!-- jarallax-js -->
+    <script src="js/SmoothScroll.min.js"></script>
+
+    <!-- Strat-Smoothing-Scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($){
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+
+    <!-- smooth scrolling -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $().UItoTop({easingType: 'easeOutQuart'});
         })
     </script>
+
+    <div class="arr-ls">
+        <a href="#hone" id="idTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+    </div>
+    <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 </body>
 </html>
